@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Head Information -->
+    <title>Readit - Documentation</title>
+    <link rel='icon' type='image/x-icon' href='assets/Readit.ico'>
+
+    <!-- Styles -->
+    <link type='text/css' rel='stylesheet' href='styles/utilities.css'>
+    <link type='text/css' rel='stylesheet' href='styles/common.css'>
+    <link type='text/css' rel='stylesheet' href='styles/docs.css'>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous">
+
+</head>
+
+<body style='background-image: url("assets/Background_edit.jpg") ;'>
+    <!-- Preloader -->
+
+    <body class='preload'></body>
+
+    <!-- Header -->
+    <div class='navbar'>
+        <div class='container full flex'>
+            <a href='/' class='logo flex'>
+                <img src='assets//Png Kakashi.png' alt='Readit Logo'>
+                <p class='title'>Readit</p>
+            </a>
+            <nav>
+                <ul>
+                    <li><a class='button' href='commands.html'><span>Commands</span></a></li>
+                    <li><a class='button currentPage' href='docs'><span>Information</span></a></li>
+                    <li><a class='button' href='premium.html' target="_blank"><span>Donate</span></a></li>
+                    <li><a class='button' href='invite.html'><span>Invite</span></a></li>
+                    <li><a class='button' href='support.html'><span>Support</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="faq">
+        <div class="question">
+            <h2>1. What is Readit?</h2>
+            <p>Readit is a Discord bot that provides book recommendations based on user preferences and allows users to
+                search for books, add them to their favorites list, and more.</p>
+        </div>
+
+        <div class="question">
+            <h2>2. How do I invite the Readit bot to my Discord server?</h2>
+            <p>To invite the Readit bot to your Discord server, you can use the `/invite` command. Simply enter this
+                command
+                in your server's chat and the bot will be invited to your server.</p>
+        </div>
+
+        <div class="question">
+            <h2>3. What types of book genres does the Readit bot support?</h2>
+            <p>The Readit bot supports a wide range of book genres, including but not limited to: Mystery, Thriller,
+                Romance, Science Fiction, Fantasy, Historical Fiction, and more. You can set your favorite genre using
+                the
+                `/set-genre` command.</p>
+        </div>
+
+        <div class="question">
+            <h2>4. Can I add books to my favorite list?</h2>
+            <p>Yes, you can add books to your favorite list using the `/star add` command, followed by the book's title
+                or
+                ISBN.</p>
+        </div>
+
+        <div class="question">
+            <h2>5. Can I remove books from my favorite list?</h2>
+            <p>To remove books from your favorite list, you can use the `/star remove` command, followed by the book's
+                title
+                or ISBN.</p>
+        </div>
+
+        <div class="question">
+            <h2>6. How do I see the list of books that I have starred?</h2>
+            <p>You can view the list of books that you have starred using the `/star list` command. This will display
+                all
+                the books that you have added to your favorites list.</p>
+        </div>
+
+        <div class="question">
+            <h2>7. How do I set my favorite genre?</h2>
+            <p>To set your favorite genre, you can use the `/set-genre` command, followed by your preferred genre. For
+                example, if you prefer Mystery books, you can enter `/set-genre Mystery`.</p>
+        </div>
+
+        <div class="question">
+            <h2>8. Can I search for a specific book using the Readit bot?</h2>
+            <p>Yes, you can search for a specific book using the Readit bot's `/search` command. Simply enter the title
+                or
+                ISBN of the book you're looking for and the bot will return the relevant information.</p>
+        </div>
+
+        <div class="question">
+            <h2>9. What is the ping command used for?</h2>
+            <p>The ping command (`/ping`) is used to check the latency or response time of the bot's connection to
+                Discord
+                servers.</p>
+        </div>
+
+        <div class="question">
+            <h2>10. Who can use the `/eval` command?</h2>
+            <p>The `/eval` command is an owner-only command, which means it can only be used by the bot owner. It allows
+                the
+                owner to input code for the bot to execute and returns the object of the code.</p>
+        </div>
+
+        <div class="question">
+            <h2>11. What should I do if I encounter a bug while using the Readit bot?</h2>
+            <p>You can report a bug on Readit by using the /bugreport command followed by a brief description of the
+                bug.
+            </p>
+        </div>
+    </div>
+    <!-- Footer -->
+    <section class='footer'>
+        <div class='container full grid'>
+            <div class='branding'>
+                <h4>Readit</h4>
+                <p>Copyright &copy; 2023 Readit</p>
+            </div>
+            <div class='flex'>
+                <div class='footernav'>
+                    <ul>
+                        <li><a class='button' href='/'><span>Home</span></a></li>
+                        <li><a class='button' href='commands.html'><span>Commands</span></a></li>
+                        <li><a class='button' href='docs.html'><span>Information</span></a></li>
+                    </ul>
+                </div>
+                <div class='footernav'>
+                    <ul>
+                        <li><a class='button' href='premium.html'><span>Donate</span></a></li>
+                        <li><a class='button' href='support.html'><span>Support Server</span></a></li>
+                        <li><a class='button' href='invite.html'><span>Invite Readit</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script>$(window).load(function () { 'body'.removeClass('.preload'); });</script>
+</body>
+
+</html>
